@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+hr {
+  width: 80%;
+  background-color: lightgrey;
+}
+
+.items {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.item {
+  width: 90%;
+  margin: 0.3rem auto;
+  padding: 0.3rem;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.item:hover {
+  width: 91%;
+  box-shadow: 5px 3px 3px lightgrey;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.form {
+
+}
+
+.input {
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+span {
+  font-size: 0.7rem;
+}
